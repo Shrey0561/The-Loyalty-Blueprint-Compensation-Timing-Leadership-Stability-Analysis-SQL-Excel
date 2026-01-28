@@ -1,5 +1,5 @@
 # The Loyalty Blueprint: Employee Retention Analysis (SQL + Excel)
-> This project was completed independently to practice HR analytics techniques and develop entry-level retention analysis skills.
+> A practical HR analytics case study focused on understanding the drivers of employee loyalty using SQL-based segmentation and Excel dashboards.
 
 ## TL;DR
 **Problem:** HR needed to understand what *keeps* employees loyal, not just why they leave.
@@ -31,7 +31,7 @@ This Excel dashboard visualizes key retention metrics such as salary hike bands,
  * [Let's Connect](#lets-connect)
 
 ## Overview
-Using a synthetic HR dataset of 1,470 employees, this project explores the key contributors to employee retention. SQL was used to segment loyalty patterns across compensation bands and engagement indicators, which were then visualized in Excel to help HR teams understand what keeps employees long-term.
+Using a synthetic HR dataset of 1,470 employees, this project analyzes the key drivers of employee retention through SQL-based segmentation and Excel dashboards, helping HR teams understand what keeps employees loyal over time.
 
 ## Key Questions Answered
  * Which salary hikes are most linked to retention?
@@ -96,6 +96,7 @@ To deepen this analysis in future work:
  * Ability to use SQL and Excel to build functional, scalable dashboards
  * Understanding of HR levers behind retention beyond surface metrics
  * Practice turning analysis into business-aligned recommendations
+ * Ability to frame HR analytics through a retention and loyalty lens, not just attrition metrics
 
 ## Let's Connect
 I'm building my career in data and HR analytics with a focus on understanding workplace dynamics through HR data. Feel free to reach out via:
