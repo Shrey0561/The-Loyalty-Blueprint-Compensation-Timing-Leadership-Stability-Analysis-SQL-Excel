@@ -1,5 +1,5 @@
 # The Loyalty Blueprint: Compensation Timing & Leadership Stability Analysis (SQL + Excel)
-> A practical HR analytics case study focused on understanding the drivers of employee loyalty using SQL-based segmentation and Excel dashboards.
+> A practical HR analytics case study focused on analyzing how compensation timing and leadership continuity shape employee loyalty outcomes using SQL-based segmentation and Excel dashboards.
 
 ## TL;DR
 **Problem:** HR lacked clarity on how compensation timing and managerial continuity influence long-term employee loyalty.
@@ -44,6 +44,8 @@ Example SQL queries used to calculate retention metrics (e.g., overall retention
  * **Overall Retention Rate:** 83.88%
  * **Avg. Manager Tenure:** 4.12 years
  * **Avg. Salary Hike:** 15.21%
+   
+> These metrics establish a baseline to evaluate how structural compensation and leadership decisions influence long-term retention stability.
 
 ## Business Insights & Strategic Recommendations
 
@@ -55,7 +57,7 @@ Example SQL queries used to calculate retention metrics (e.g., overall retention
 ### Income Band & Loyalty
  * **Insight**: Higher income bands showed **89.2% retention**, compared to **71.39%** for lower bands.
    
- * **Recommendation**: Invest in total rewards and development opportunities for lower bands to sustain commitment.
+ * **Recommendation**: Introduce milestone-based compensation reviews and transparent progression frameworks for lower-income cohorts to prevent early-stage loyalty erosion.
  
 ### Manager Tenure
  * **Insight**: Employees with managers of **6+ years** had **89.95% retention**, the highest in the dataset.
@@ -67,7 +69,7 @@ Example SQL queries used to calculate retention metrics (e.g., overall retention
 
 ### Job Involvement
  * **Insight**: High involvement (Level 4) showed **90.97% retention**, the lowest attrition overall.
- * **Recommendation**: Build employee autonomy and recognition practices to reinforce long-term engagement.
+ * **Recommendation**: Incorporate job-involvement scoring into performance reviews to detect declining engagement before loyalty erosion begins.
 
 ## Tools Used
  - **MySQL**: Calculated retention metrics and segmented employee cohorts
