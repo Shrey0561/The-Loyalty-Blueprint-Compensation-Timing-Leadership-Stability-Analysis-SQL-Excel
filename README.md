@@ -1,20 +1,15 @@
-# The Loyalty Blueprint: Employee Retention Analysis (SQL + Excel)
+# The Loyalty Blueprint: Compensation Timing & Leadership Stability Analysis (SQL + Excel)
 > A practical HR analytics case study focused on understanding the drivers of employee loyalty using SQL-based segmentation and Excel dashboards.
 
 ## TL;DR
-**Problem:** HR needed to understand what *keeps* employees loyal, not just why they leave.
+**Problem:** HR lacked clarity on how compensation timing and managerial continuity influence long-term employee loyalty.
 
-**Process:** Used **MySQL + Excel** to segment 1,470 employees by salary hikes, manager tenure, stock options, and job involvement.
+**Process:** Used **SQL** cohort segmentation and **Excel** dashboards to analyze salary hike timing, manager tenure, stock incentives, and engagement levels across 1,470 employees.
 
-**Result:**
- - **20% higher retention** among employees with long-tenured managers
- - **Salary hikes in the first 18 months** significantly increased 2-year loyalty
- - **Stock options & high job involvement** strongly correlated with long-term retention
-
-**Takeaway:** Investing early in leadership stability, incentive timing, and employee engagement drives loyalty.
+**Result:** Employees with long-tenured managers (6+ years) showed **20%** higher retention, and salary hikes within the first 18 months significantly strengthened 2-year loyalty.
 
 ## Dashboard Preview
-This Excel dashboard visualizes key retention metrics such as salary hike bands, manager tenure, stock options, and engagement levels, helping HR quickly spot the patterns behind employee loyalty.
+This Excel dashboard visualizes compensation timing bands, manager tenure clusters, and loyalty patterns to support structural HR decision-making.
 
 ![Dashboard Retention Preview](dashboard_retention_preview.png)
 
@@ -25,20 +20,18 @@ This Excel dashboard visualizes key retention metrics such as salary hike bands,
  * [KPIs Tracked](#kpis-tracked)
  * [Business Insights & Strategic Recommendations](#business-insights--strategic-recommendations)
  * [Tools Used](#tools-used)
- * [Case Study - Full Walkthrough](#case-study-full-walkthrough)
  * [What I'd Explore Next](#what-id-explore-next)
  * [What This Project Demonstrates](#what-this-project-demonstrates)
  * [Let's Connect](#lets-connect)
 
 ## Overview
-Using a synthetic HR dataset of 1,470 employees, this project analyzes the key drivers of employee retention through SQL-based segmentation and Excel dashboards, helping HR teams understand what keeps employees loyal over time.
+Using a synthetic HR dataset of 1,470 employees, this project reframes retention as a structural outcome of compensation design and leadership continuity. Rather than asking why employees leave, the analysis evaluates when and how incentive timing and managerial stability strengthen long-term loyalty.
 
 ## Key Questions Answered
- * Which salary hikes are most linked to retention?
- * Does income level influence employee loyalty?
- * How does manager tenure impact long-term retention?
- * Do stock options or job involvement improve loyalty outcomes?
- * What practical actions can HR teams take to retain employees?
+ * How does compensation timing influence 2-year retention stability?
+ * Does managerial tenure create measurable continuity effects on loyalty?
+ * Are moderate incentive bands more effective than extreme compensation jumps?
+ * Which structural levers strengthen retention beyond salary alone?
 
 ## SQL Queries Preview
 Example SQL queries used to calculate retention metrics (e.g., overall retention rate, segmentation by stock option level). These outputs were then visualized in Excel to support the dashboard insights.
@@ -57,7 +50,7 @@ Example SQL queries used to calculate retention metrics (e.g., overall retention
 ### Salary Hike & Retention
  * **Insight**: Retention peaked for salary hikes between **17-19%**, but declined when increases exceeded 23%.
    
- * **Recommendation**: Align raise percentages with engagement efforts; compensation alone does not guarantee loyalty.
+ * **Recommendation**: Standardize early-career salary progression bands (17-19%) within the first 18 months to stabilize mid-tenure attrition risk.
 
 ### Income Band & Loyalty
  * **Insight**: Higher income bands showed **89.2% retention**, compared to **71.39%** for lower bands.
@@ -66,11 +59,11 @@ Example SQL queries used to calculate retention metrics (e.g., overall retention
  
 ### Manager Tenure
  * **Insight**: Employees with managers of **6+ years** had **89.95% retention**, the highest in the dataset.
- * **Recommendation**: Retain experienced managers and provide mentorship for new team leads. 
+ * **Recommendation**: Track managerial tenure as a retention KPI and implement structured transition plans when team leadership changes occur.
 
 ### Stock Option Level
  * **Insight**: Stock Option Level 2 yielded the strongest loyalty at **92.41%**.
- * **Recommendation**: Moderate, attainable incentive plans drive better retention than none or excessive perks.
+ * **Recommendation**: Design attainable equity thresholds that reward sustained performance without creating disengagement gaps between incentive tiers.
 
 ### Job Involvement
  * **Insight**: High involvement (Level 4) showed **90.97% retention**, the lowest attrition overall.
@@ -79,11 +72,6 @@ Example SQL queries used to calculate retention metrics (e.g., overall retention
 ## Tools Used
  - **MySQL**: Calculated retention metrics and segmented employee cohorts
  - **Microsoft Excel**: Built dashboard visuals, KPIs, and pattern summaries
-
-## Case Study - (Full Walkthrough)
-For a detailed breakdown of methodology, SQL logic, and insight development, explore the full case study below:
-
-[View full case study](https://docs.google.com/document/d/1lmSIyW4AsWBMPn9TkkJxtW42j8BunomERdXkg3M_VFQ/edit?usp=sharing)
 
 ## What I'd Explore Next
 To deepen this analysis in future work:
@@ -94,7 +82,7 @@ To deepen this analysis in future work:
 ## What This Project Demonstrates
  * Exposure to end-to-end thinking from raw data to HR insight
  * Ability to use SQL and Excel to build functional, scalable dashboards
- * Understanding of HR levers behind retention beyond surface metrics
+ * Understanding of how compensation timing and managerial continuity act as measurable retention levers
  * Practice turning analysis into business-aligned recommendations
  * Ability to frame HR analytics through a retention and loyalty lens, not just attrition metrics
 
